@@ -1,6 +1,7 @@
 variable "name" {
   type          = string
   description   = "(Required) Specifies the name of the Certificate. Changing this forces a new resource to be created."
+  default       = "AzureRunAsCertificate"
 }
 
 variable "resource_group_name" {
